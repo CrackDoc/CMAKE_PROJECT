@@ -94,3 +94,4 @@ build64/x64/Debug/ZERO_CHECK/ZERO_CHECK.tlog/ZERO_CHECK.lastbuildstate
 build64/ZERO_CHECK.vcxproj
 build64/ZERO_CHECK.vcxproj.filters
 /out/build/x64-Debug (默认值)
+/CMAKE_PROJECT/out/build/x64-Debug (默认值)

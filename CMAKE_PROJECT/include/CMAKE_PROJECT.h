@@ -4,5 +4,8 @@
 #pragma once
 
 #include <iostream>
-
+#include "CMAKE_PROJECTExport.h"
 // TODO: 在此处引用程序需要的其他标头。
+
+// c 函数 extern CMAKE_PROJECT_EXPORT 
+// c++ 类 class CMAKE_PROJECT_EXPORT CMAKE_XXX

@@ -7,3 +7,4 @@ project ("CMAKE_PROJECT")
 
 # 包含子项目。
 add_subdirectory ("CMAKE_PROJECT")
+add_subdirectory("UnitTest")
