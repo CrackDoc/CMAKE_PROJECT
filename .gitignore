@@ -1,77 +1,18 @@
-# Prerequisites
-*.d
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
 .vs/CMake Overview
 .vs/cmake.db
+.vs/CMAKE_PROJECT/v16/.suo
+.vs/CMAKE_PROJECT/v16/Browse.VC.db
 .vs/CMAKE_PROJECT/v16/Browse.VC.db-shm
-*.db
 .vs/CMAKE_PROJECT/v16/Browse.VC.db-wal
 .vs/CMAKE_PROJECT/v16/Browse.VC.opendb
 .vs/CMAKE_PROJECT/v16/ipch/AutoPCH/975429fec138976b/CMAKE_PROJECT.ipch
 .vs/ProjectSettings.json
 .vs/slnx.sqlite
-out/build/x64-Debug (默认值)/.cmake/api/v1/query/client-MicrosoftVS/query.json
-out/build/x64-Debug (默认值)/.cmake/api/v1/reply/cache-v2-65e52cdd97fcb740e1f4.json
-out/build/x64-Debug (默认值)/.cmake/api/v1/reply/cmakeFiles-v1-4bc121bd35cf7a449408.json
-out/build/x64-Debug (默认值)/.cmake/api/v1/reply/codemodel-v2-f5cb48e00735573a0db4.json
-out/build/x64-Debug (默认值)/.cmake/api/v1/reply/index-2021-01-21T07-31-27-0035.json
-out/build/x64-Debug (默认值)/.cmake/api/v1/reply/target-CMAKE_PROJECT-Debug-2345ecdd772ef75148e0.json
-out/build/x64-Debug (默认值)/build.ninja
-out/build/x64-Debug (默认值)/cmake_install.cmake
-out/build/x64-Debug (默认值)/CMAKE_PROJECT/cmake_install.cmake
-out/build/x64-Debug (默认值)/CMakeCache.txt
-out/build/x64-Debug (默认值)/CMakeFiles/3.18.20081302-MSVC_2/CMakeCCompiler.cmake
-out/build/x64-Debug (默认值)/CMakeFiles/3.18.20081302-MSVC_2/CMakeCXXCompiler.cmake
-out/build/x64-Debug (默认值)/CMakeFiles/3.18.20081302-MSVC_2/CMakeDetermineCompilerABI_C.bin
-out/build/x64-Debug (默认值)/CMakeFiles/3.18.20081302-MSVC_2/CMakeDetermineCompilerABI_CXX.bin
-out/build/x64-Debug (默认值)/CMakeFiles/3.18.20081302-MSVC_2/CMakeRCCompiler.cmake
-out/build/x64-Debug (默认值)/CMakeFiles/3.18.20081302-MSVC_2/CMakeSystem.cmake
-out/build/x64-Debug (默认值)/CMakeFiles/3.18.20081302-MSVC_2/CompilerIdC/CMakeCCompilerId.c
-out/build/x64-Debug (默认值)/CMakeFiles/3.18.20081302-MSVC_2/CompilerIdCXX/CMakeCXXCompilerId.cpp
-out/build/x64-Debug (默认值)/CMakeFiles/cmake.check_cache
-out/build/x64-Debug (默认值)/CMakeFiles/CMakeOutput.log
-out/build/x64-Debug (默认值)/CMakeFiles/rules.ninja
-out/build/x64-Debug (默认值)/CMakeFiles/ShowIncludes/foo.h
-out/build/x64-Debug (默认值)/CMakeFiles/ShowIncludes/main.c
-out/build/x64-Debug (默认值)/CMakeFiles/TargetDirectories.txt
-out/build/x64-Debug (默认值)/Testing/Temporary/LastTest.log
-out/build/x64-Debug (默认值)/VSInheritEnvironments.txt
-.gitattributes
-.vs/CMAKE_PROJECT/v16/.suo
 .vs/VSWorkspaceState.json
 build64/.vs/CMAKE_PROJECT/v16/.suo
-build64/.vs/CMAKE_PROJECT/v16/Browse.VC.db-shm
-build64/.vs/CMAKE_PROJECT/v16/Browse.VC.db-wal
-build64/.vs/CMAKE_PROJECT/v16/Browse.VC.opendb
+build64/.vs/CMAKE_PROJECT/v16/Browse.VC.db
+build64/.vs/CMAKE_PROJECT/v16/Solution.VC.db
 build64/.vs/CMAKE_PROJECT/v16/Solution.VC.db-shm
 build64/.vs/CMAKE_PROJECT/v16/Solution.VC.db-wal
 build64/ALL_BUILD.vcxproj
@@ -82,6 +23,7 @@ build64/CMAKE_PROJECT.sln
 build64/CMAKE_PROJECT/cmake_install.cmake
 build64/CMAKE_PROJECT/CMAKE_PROJECT.dir/Debug/CMAKE_PROJECT.exe.recipe
 build64/CMAKE_PROJECT/CMAKE_PROJECT.dir/Debug/CMAKE_PROJECT.log
+build64/CMAKE_PROJECT/CMAKE_PROJECT.dir/Debug/CMAKE_PROJECT.obj
 build64/CMAKE_PROJECT/CMAKE_PROJECT.dir/Debug/CMAKE_PROJECT.tlog/CL.command.1.tlog
 build64/CMAKE_PROJECT/CMAKE_PROJECT.dir/Debug/CMAKE_PROJECT.tlog/CL.read.1.tlog
 build64/CMAKE_PROJECT/CMAKE_PROJECT.dir/Debug/CMAKE_PROJECT.tlog/CL.write.1.tlog
@@ -98,6 +40,7 @@ build64/CMAKE_PROJECT/CMAKE_PROJECT.vcxproj.filters
 build64/CMAKE_PROJECT/CMAKE_PROJECT.vcxproj.user
 build64/CMAKE_PROJECT/CMakeFiles/generate.stamp
 build64/CMAKE_PROJECT/CMakeFiles/generate.stamp.depend
+build64/CMAKE_PROJECT/Debug/CMAKE_PROJECT.exe
 build64/CMAKE_PROJECT/Debug/CMAKE_PROJECT.ilk
 build64/CMAKE_PROJECT/Debug/CMAKE_PROJECT.pdb
 build64/CMakeCache.txt
@@ -109,7 +52,9 @@ build64/CMakeFiles/3.15.0-rc1/CMakeDetermineCompilerABI_CXX.bin
 build64/CMakeFiles/3.15.0-rc1/CMakeRCCompiler.cmake
 build64/CMakeFiles/3.15.0-rc1/CMakeSystem.cmake
 build64/CMakeFiles/3.15.0-rc1/CompilerIdC/CMakeCCompilerId.c
+build64/CMakeFiles/3.15.0-rc1/CompilerIdC/CompilerIdC.exe
 build64/CMakeFiles/3.15.0-rc1/CompilerIdC/CompilerIdC.vcxproj
+build64/CMakeFiles/3.15.0-rc1/CompilerIdC/Debug/CMakeCCompilerId.obj
 build64/CMakeFiles/3.15.0-rc1/CompilerIdC/Debug/CompilerIdC.exe.recipe
 build64/CMakeFiles/3.15.0-rc1/CompilerIdC/Debug/CompilerIdC.tlog/CL.command.1.tlog
 build64/CMakeFiles/3.15.0-rc1/CompilerIdC/Debug/CompilerIdC.tlog/CL.read.1.tlog
@@ -119,7 +64,9 @@ build64/CMakeFiles/3.15.0-rc1/CompilerIdC/Debug/CompilerIdC.tlog/link.command.1.
 build64/CMakeFiles/3.15.0-rc1/CompilerIdC/Debug/CompilerIdC.tlog/link.read.1.tlog
 build64/CMakeFiles/3.15.0-rc1/CompilerIdC/Debug/CompilerIdC.tlog/link.write.1.tlog
 build64/CMakeFiles/3.15.0-rc1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+build64/CMakeFiles/3.15.0-rc1/CompilerIdCXX/CompilerIdCXX.exe
 build64/CMakeFiles/3.15.0-rc1/CompilerIdCXX/CompilerIdCXX.vcxproj
+build64/CMakeFiles/3.15.0-rc1/CompilerIdCXX/Debug/CMakeCXXCompilerId.obj
 build64/CMakeFiles/3.15.0-rc1/CompilerIdCXX/Debug/CompilerIdCXX.exe.recipe
 build64/CMakeFiles/3.15.0-rc1/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CL.command.1.tlog
 build64/CMakeFiles/3.15.0-rc1/CompilerIdCXX/Debug/CompilerIdCXX.tlog/CL.read.1.tlog
@@ -146,18 +93,3 @@ build64/x64/Debug/ZERO_CHECK/ZERO_CHECK.tlog/CustomBuild.write.1.tlog
 build64/x64/Debug/ZERO_CHECK/ZERO_CHECK.tlog/ZERO_CHECK.lastbuildstate
 build64/ZERO_CHECK.vcxproj
 build64/ZERO_CHECK.vcxproj.filters
-out/build/x64-Debug (默认值)/.cmake/api/v1/reply/codemodel-v2-dbcd1d75ccbb12572901.json
-out/build/x64-Debug (默认值)/.cmake/api/v1/reply/index-2021-01-21T08-25-02-0325.json
-out/build/x64-Debug (默认值)/.cmake/api/v1/reply/target-CMAKE_PROJECT-Debug-5a185170b186b1a03107.json
-out/build/x64-Debug (默认值)/.cmake/api/v1/reply/index-2021-01-22T01-22-25-0020.json
-out/build/x64-Debug (默认值)/.cmake/api/v1/reply/index-2021-01-22T01-23-42-0343.json
-out/build/x64-Debug (默认值)/.cmake/api/v1/reply/index-2021-01-22T01-24-35-0627.json
-out/build/x64-Debug (默认值)/.cmake/api/v1/reply/index-2021-01-22T01-23-42-0343.json
-out/build/x64-Debug (默认值)/.cmake/api/v1/reply/index-2021-01-22T01-23-42-0343.json
-out/build/x64-Debug (默认值)/.cmake/api/v1/reply/index-2021-01-22T01-23-42-0343.json
-out/build/x64-Debug (默认值)/.cmake/api/v1/reply/index-2021-01-22T01-26-04-0651.json
-out/build/x64-Debug (默认值)/.cmake/api/v1/reply/index-2021-01-22T01-23-42-0343.json
-out/build/x64-Debug (默认值)/.cmake/api/v1/reply/index-2021-01-22T01-23-42-0343.json
-*.json
-out/build/x64-Debug (默认值)/.cmake/api/v1/reply/index-2021-01-22T01-23-42-0343.json
-out/build/x64-Debug (默认值)/.cmake/api/v1/reply/index-2021-01-22T01-23-42-0343.json
