@@ -8,7 +8,7 @@ set install_dir=%3
 set solutionName=%4
 set pwd=%CD%
 
-cd ..\..\
+cd ..\
 
 set current_path=%cd%
 
