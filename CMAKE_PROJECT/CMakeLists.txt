@@ -53,11 +53,11 @@ add_executable (${PROJECT_NAME} ${_INC_EXPATH} ${_SRC_EXPATH})
 #MESSAGE(STSTUS "###################################")
 
 IF (WIN32)
-#	target_link_libraries(${PROJECT_NAME} libcurl.lib)
+	target_link_libraries(${PROJECT_NAME} libcurl.lib)
 ELSEIF (Linux)
-#	target_link_libraries(${PROJECT_NAME} libcurl.so)
+	target_link_libraries(${PROJECT_NAME} libcurl.so)
 ELSEIF (UNIX)
-#	MESSAGE(STATUS "Now is UNIX-like OS's.")
+	MESSAGE(STATUS "Now is UNIX-like OS's.")
 ENDIF ()
 
 #-----------------TODO 执行外部命令
