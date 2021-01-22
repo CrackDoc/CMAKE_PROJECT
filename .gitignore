@@ -95,3 +95,5 @@ build64/ZERO_CHECK.vcxproj
 build64/ZERO_CHECK.vcxproj.filters
 /out/build/x64-Debug (默认值)
 /CMAKE_PROJECT/out/build/x64-Debug (默认值)
+/build64
+/.vs/CMAKE_PROJECT/v16/ipch/AutoPCH/29d7ca6a8be0168a

@@ -8,7 +8,7 @@ set install_dir=%3
 set solutionName=%4
 set pwd=%CD%
 
-cd ..\..\
+cd ..\
 
 set current_path=%cd%
 
@@ -42,10 +42,10 @@ rem 安装库文件
 mkdir %project_install_dir_lib%
 mkdir %project_install_dir_bin%
 
-xcopy /a /y  %current_path%\%platform%\%configure%\*.lib %project_install_dir_lib%
-xcopy /a /y  %current_path%\%platform%\%configure%\*.dll %project_install_dir_bin%
-xcopy /a /y  %current_path%\%platform%\%configure%\*.exe %project_install_dir_bin%
-xcopy /a /y  %current_path%\%platform%\%configure%\*.pdb %project_install_dir_bin%
+xcopy /a /y  %current_path%\%configure%\*.lib %project_install_dir_lib%
+xcopy /a /y  %current_path%\%configure%\*.dll %project_install_dir_bin%
+xcopy /a /y  %current_path%\%configure%\*.exe %project_install_dir_bin%
+xcopy /a /y  %current_path%\%configure%\*.pdb %project_install_dir_bin%
 
 echo ------------------------------------------------------------------------------
 
