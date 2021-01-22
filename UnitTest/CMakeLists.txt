@@ -30,12 +30,12 @@ link_directories(
 #link_directories(${CURL_PATH}/lib)
 
 #-----------------TODO EXE编译连接
-#add_executable (${PROJECT_NAME} ${_INC_EXPATH} ${_SRC_EXPATH})
+add_executable (${PROJECT_NAME} ${_INC_EXPATH} ${_SRC_EXPATH})
 
 
 #-----------------TODO 创建工程内的库
 #-----------------STATIC表示创建静态库，目标文件为 libmylib.a，如果是 SHARED， 则为创建动态库.
-add_library(${PROJECT_NAME} SHARED ${_INC_EXPATH} ${_SRC_EXPATH})
+#add_library(${PROJECT_NAME} SHARED ${_INC_EXPATH} ${_SRC_EXPATH})
 
 #-----------------TODO 连接lib 文件
 #MESSAGE(STATUS "operation system is ${CMAKE_SYSTEM}")
@@ -51,13 +51,13 @@ add_library(${PROJECT_NAME} SHARED ${_INC_EXPATH} ${_SRC_EXPATH})
  
 #MESSAGE(STSTUS "###################################")
 
-IF (WIN32)
+#IF (WIN32)
 #	target_link_libraries(${PROJECT_NAME} libcurl.lib)
-ELSEIF (Linux)
+#ELSEIF (Linux)
 #	target_link_libraries(${PROJECT_NAME} libcurl.so)
-ELSEIF (UNIX)
+#ELSEIF (UNIX)
 #	MESSAGE(STATUS "Now is UNIX-like OS's.")
-ENDIF ()
+#ENDIF ()
 
 #-----------------TODO 执行外部命令
 #set(THRIFT_FILE ${CMAKE_CURRENT_SOURCE_DIR}/mythrift.thrift)

@@ -3,7 +3,10 @@
 #
 cmake_minimum_required (VERSION 3.8)
 
-project ("CMAKE_PROJECT")
+STRING( REGEX REPLACE ".*/(.*)" "\\1" PROJECT_NAME ${CMAKE_CURRENT_SOURCE_DIR} ) 
+
+project (${PROJECT_NAME})
 
 # 包含子项目。
-add_subdirectory ("CMAKE_PROJECT")
+add_subdirectory (${PROJECT_NAME})
+add_subdirectory("UnitTest")
