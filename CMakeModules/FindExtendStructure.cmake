@@ -20,6 +20,7 @@ FIND_PATH(ExtendStructure_INCLUDE_DIR ExtendStructureExport.h
 	"C:/Program Files/ExtendStructure/include"
 )
 
+
 MACRO( FIND_ExtendStructure_LIBRARY MYLIBRARY MYLIBRARYNAME )
 
 FIND_LIBRARY(${MYLIBRARY}
